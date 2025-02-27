@@ -1,6 +1,6 @@
 [build]
-  command = "echo 'Skipping build step - using pre-built files'"
   publish = "dist"
+  command = "echo 'Using pre-built files in dist/'"
 
 [build.environment]
   NODE_VERSION = "16.18.0"
